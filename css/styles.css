@@ -1,0 +1,90 @@
+:root {
+  --main-text-color: #212121;
+  --secondary-text-color: #757575;
+  --blue-color: #2196f3;
+  --white-color: #ffffff;
+  --hover-main-button: #188ce8;
+  --hover-secondary-button: #f5f4fa;
+  --footer-contacts-color: rgba(255, 255, 255, 0.6);
+  --logo-black-color: #000000;
+  --footer-background-color: #2f303a;
+  --border-color: #ececec;
+  --icon-color: #afb1b8;
+}
+
+body {
+  background: var(--white-color);
+  color: var(--main-text-color);
+  font-family: Roboto, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+.list {
+  list-style: none;
+}
+
+.address {
+  font-style: normal;
+}
+
+.second-color {
+  color: var(--blue-color);
+}
+
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+
+/* Скрыть */
+.header-hide {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.image {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/* HEADER */
+.section-header__container-header {
+  display: flex;
+  align-items: center;
+}
+
+.logo__image {
+  width: 64px;
+  height: 64px;
+}
+
+.site-nav {
+  display: flex;
+  margin-left: 50px;
+
+  &__item {
+    margin-left: 20px;
+  }
+}
