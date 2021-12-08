@@ -1,0 +1,46 @@
+.section-header .container {
+  display: flex;
+  align-items: center;
+}
+
+.image-logo {
+  width: 64px;
+  height: 64px;
+}
+
+.contacts {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+}
+
+.contacts .link {
+  display: flex;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: $primary-shade3-color;
+}
+
+.contacts .link:hover {
+  color: $accent-color;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.contacts .item {
+  cursor: pointer;
+  display: flex;
+  color: $secondary-shade3-color;
+}
+
+.contacts .link:last-child {
+  margin-left: 50px;
+}
+
+.tel-icon,
+.mail-icon {
+  margin-right: 10px;
+  fill: currentColor;
+}

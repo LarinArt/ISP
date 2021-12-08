@@ -1,0 +1,27 @@
+.theme {
+  padding: 200px 15px;
+  background-color: $primary-shade3-color;
+  text-align: center;
+}
+
+.theme-background {
+  margin: 0 auto;
+  max-width: 1600px;
+  background-image: -webkit-gradient(
+      linear,
+      left top,
+      right top,
+      from(rgba(47, 48, 58, 0.4)),
+      to(rgba(47, 48, 58, 0.4))
+    ),
+    url(../images/main-background.jpg);
+  background-image: linear-gradient(
+      to right,
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../images/main-background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
